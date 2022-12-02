@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Momentum</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<form id="login-form" class="hidden">
+		<input type="text" required maxlength="15" placeholder="What is your name?">
+		<button type="submit">Have a nice day!</button>
+	</form>
+	<h1 class="hidden" id="greeting"></h1>
+	<form id="inputTodo">
+		<input type="text" maxlength="15" placeholder="오늘의 할 일은?"/>
+		<button type="submit">추가</button>
+	</form>
+	<ul class="todoList">	
+	</ul>
+	<h2 id="clock">00:00:00</h2>
+	
+	<p id="quote"><span></span></p>
+	<div id="weather">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<script src="greetings.js"></script>
+	<script src="clock.js"></script>
+	<script src="quotes.js"></script>
+	<script src="background.js"></script>
+	<script src="todo.js"></script>
+	<script src="weather.js"></script>
+</body>
+</html>
